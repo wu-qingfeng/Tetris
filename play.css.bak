@@ -1,0 +1,31 @@
+.playground{
+  width:528px;height:550px;
+  margin:0 auto;
+  background-image:url(images/Play_bg.png);
+  background-size:528px 550px;
+  position:relative;
+}
+.playground>p{
+  color:#8B9CB1;
+  font-size:30px;
+  position:absolute;
+}
+.playground>p.firstChild{
+  top:118px;
+  right:90px;
+}
+.playground>p.md{
+  top:173px;
+  right:110px;
+}
+.playground>p.lastChild{
+  top:228px;
+  right:110px;
+}
+.playground>img{
+  position:absolute;
+  Z-index:10;
+}
+
+
+
